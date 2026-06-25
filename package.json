@@ -1,0 +1,16 @@
+{
+  "name": "albostan-oauth-proxy",
+  "version": "1.0.0",
+  "description": "GitHub OAuth Proxy for AlBostan Admin Panel",
+  "main": "api/oauth.js",
+  "scripts": {
+    "dev": "node api/oauth.js",
+    "start": "node api/oauth.js"
+  },
+  "keywords": ["github", "oauth", "proxy"],
+  "author": "AlBostan Store",
+  "license": "MIT",
+  "engines": {
+    "node": "18.x"
+  }
+}
