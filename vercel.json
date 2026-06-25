@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "functions": {
+    "api/oauth.js": {
+      "memory": 128,
+      "maxDuration": 10
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/oauth",
+      "dest": "/api/oauth.js"
+    }
+  ]
+}
